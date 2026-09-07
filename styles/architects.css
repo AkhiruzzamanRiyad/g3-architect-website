@@ -7,3 +7,89 @@
   font-weight: 800;
   font-style: normal;
 }
+
+/* Shared style */
+.display-flex{
+  display: flex;
+}
+
+
+.text-gray{
+  color:#424242; /* dark 02 */
+}
+
+
+.text-light-gray{
+  color: #727272; /* dark 03 */
+}
+
+
+.header-bg{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* header styles */
+
+/* navbar related style */
+.navbar{
+  justify-content:space-between;
+  align-items: center;
+}
+
+.brand{
+  font-weight: 700;
+  font-size:  3rem;
+}
+
+
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+}
+
+
+.nav-link{
+  text-decoration: none;
+  font-weight: 500;
+
+}
+.navbar, .banner{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.btn-primary{
+  background-color: rgba(255, 144, 14, 1);
+  color: white;
+  padding: 20px 25px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+}
+
+
+
+/* Banner related styles */
+
+.banner-content{
+  max-width: 862px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.banner-title{
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.banner-description{
+  font-size: 1rem;
+  font-weight: normal;
+  /* margin-top: 32px; */
+}
+
+.banner-img{
+  width: 100%;
+}
